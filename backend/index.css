@@ -1,0 +1,24 @@
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: global styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6; /* light gray */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1e3a8a; /* CU blue for headings */
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
